@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ананасовый улун — Чайный Бум</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="product-card">
+      <article aria-labelledby="product-title">
+        <header class="product-heading">
+          <nav class="breadcrumbs" aria-label="Категория товара">
+            <ol>
+              <li><a href="https://teaboom.ru/">Начало</a></li>
+              <li><a href="https://teaboom.ru/category-root">Каталог</a></li>
+              <li><a href="https://teaboom.ru/category-ulun">Улун</a></li>
+              <li><a href="https://teaboom.ru/category-aromatizirovannyj-ulun">Ароматизированный улун</a></li>
+              <li><a href="https://teaboom.ru/category-kitajskij-aromatizirovannyj-ulun">Китайский ароматизированный улун</a></li>
+              <li><a href="https://teaboom.ru/category-kitajskij-svetlyj-aromatizirovannyj-ulun">Китайский светлый ароматизированный улун</a></li>
+              <li aria-current="page">Ананасовый улун</li>
+            </ol>
+          </nav>
+          <h1 id="product-title">Ананасовый улун</h1>
+        </header>
+
+        <div class="product-layout">
+          <div class="product-gallery">
+            <a class="product-image" href="assets/ananasoviy-ulun.jpg" target="_blank" rel="noopener" aria-label="Открыть фотографию ананасового улуна в полном размере">
+              <img src="assets/ananasoviy-ulun.jpg" alt="Ананасовый улун: скрученные чайные листья с кусочками цукатов" width="970" height="970" fetchpriority="high">
+              <span class="image-zoom" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg>
+              </span>
+            </a>
+            <img class="product-thumbnail" src="assets/ananasoviy-ulun.jpg" width="970" height="970" alt="">
+          </div>
+
+          <div class="product-details">
+            <fieldset class="packaging">
+              <legend>Выберите фасовку</legend>
+              <div class="variant-list">
+                <label class="variant-option">
+                  <input type="radio" name="weight" value="100" checked>
+                  <span class="variant-row">
+                    <span class="variant-name">100 г<span class="variant-sku">арт: 01306</span></span>
+                    <span class="variant-prices"><strong>326.40 ₽</strong><del>349.20 ₽</del></span>
+                    <span class="variant-indicator" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span>
+                    <span class="variant-stock"><span>наличие:</span><b>Много</b></span>
+                  </span>
+                </label>
+                <label class="variant-option">
+                  <input type="radio" name="weight" value="500">
+                  <span class="variant-row">
+                    <span class="variant-name">500 г<span class="variant-sku">арт: 01307</span></span>
+                    <span class="variant-prices"><strong>1432.00 ₽</strong><del>1646.00 ₽</del></span>
+                    <span class="variant-indicator" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span>
+                    <span class="variant-stock"><span>наличие:</span><b>Много</b></span>
+                  </span>
+                </label>
+                <label class="variant-option">
+                  <input type="radio" name="weight" value="1000">
+                  <span class="variant-row">
+                    <span class="variant-name">1000 г<span class="variant-sku">арт: 01308</span></span>
+                    <span class="variant-prices"><strong>2064.00 ₽</strong><del>2592.00 ₽</del></span>
+                    <span class="variant-indicator" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span>
+                    <span class="variant-stock"><span>наличие:</span><b>Много</b></span>
+                  </span>
+                </label>
+                <label class="variant-option">
+                  <input type="radio" name="weight" value="5000">
+                  <span class="variant-row">
+                    <span class="variant-name">5000 г<span class="variant-sku">арт: 01309</span></span>
+                    <span class="variant-prices"><strong>6320.00 ₽</strong><del>8710.00 ₽</del></span>
+                    <span class="variant-indicator" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span>
+                    <span class="variant-stock"><span>наличие:</span><b>Много</b></span>
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="purchase-panel">
+              <div class="selected-variant" aria-live="polite" aria-atomic="true">
+                <div class="selected-meta"><span>Фасовка: <b id="selected-weight">100 г</b></span><span>арт: <span id="product-sku">01306</span></span></div>
+                <div class="selected-prices"><span class="sr-only">Цена:</span><strong id="current-price">326.40 ₽</strong><span class="sr-only">Старая цена:</span><del id="old-price">349.20 ₽</del></div>
+              </div>
+              <button class="add-to-cart" type="button">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h3l2.5 12h11L21 6H6M8 10h11M9 7v8m5-8v8"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+                В корзину
+              </button>
+            </div>
+            <noscript><p class="noscript-note">Для переключения фасовок включите JavaScript. Сейчас выбрана фасовка 100 г.</p></noscript>
+          </div>
+        </div>
+
+        <section class="product-description" aria-labelledby="description-title">
+          <h2 id="description-title">Описание</h2>
+          <div class="description-content">
+            <p>Состав: китайский бирюзовый чай, цукаты, натуральные ароматические масла. Светлый Фуцзяньский улун с ароматом ананаса. В сухом виде — красивый крупный лист изумрудного цвета, скруткой листа напоминающий Те Гуань Инь.</p>
+            <p>Настой прозрачный, светло-янтарного цвета. Классическая нота светлого фуцзяньского улуна переплетается с яркой ананасовой нотой.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
